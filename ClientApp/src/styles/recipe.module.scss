@@ -1,0 +1,49 @@
+﻿.itemwrap {
+  width: 32%;
+  padding: 12px;
+  min-height: 100px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0px 2px 5px rgb(51, 49, 49);
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  &:hover {
+    border-color: rgb(11, 62, 156);
+  }
+}
+
+.picture {
+  display: block;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.details {
+  font-size: 12px;
+  padding: 5px 0 0 0px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+}
+
+.calories {
+  color: black;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
